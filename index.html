@@ -1,0 +1,2437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Simulation Tool</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="mycss.css">
+    <link rel="shortcut icon" type=image/png href="image/simulationfevicon.png">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+ 
+
+
+<nav class=" navbar-inverse navbar-fixed-top" style="margin-top: 0px" >
+<div>
+<a  href="index.html"><img src="image/simulationfevicon.png" alt="" width="170px" height="95px" style="float: left"></a>
+</div>
+ 
+<img id="slideshow" src="image/slideshow.jpg" alt="" width="100" height="90" style="position: fixed;right: 2px; top: 2px; z-index:1; border: 2px ridge red; border-radius: 10px">
+<!--<button id="slideshow" style="position: fixed;right: 0px; top: 0px; z-index: 1 ">Click</button>-->
+
+<!--<div style="margin-left: 148px; max-width:1020px">--> 
+<div class="container">
+<!--Start first Service nav tab-->
+ <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" href="#" style="color: floralwhite; background-color: #222">
+                Personal Computing Platforms <span class="caret"></span></a>
+                
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+             <!--start of first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">IT Device Market</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">Issue with Mobile</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li id="level3id-1" onclick="setimg(arg)"><a href="#">Unable to Sync mail</a></li>
+                    	    <li id="level3id-2"  onclick="setimg(arg2)"><a href="#">IPhone without SIM</a></li>
+                    	    <li id="level3id-3"  onclick="setimg(arg3)"><a href="#">Cant Open Mail</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of first level dropdown-->
+        <!--start of 2nd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">BitLocker</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">Unable to login to BitLocker</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li id="level3id-4"  onclick="setimg(arg4)"><a href="#">Registerd to MFA</a></li>
+                    	    <li><a href="#">Un-Registered to MFA</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 2nd first level dropdown-->
+        <!--start of 3rd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 3rd first level dropdown-->        
+        <!--start of 4th first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 4th first level dropdown-->    
+       </ul> <!--final Ul-->                
+    </div>
+<!--End of first service nav tab-->
+<!--Start 2nd Service nav tab-->
+ <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" href="#" style="color: floralwhite; background-color: #222">
+                Identity & Access Mgmt <span class="caret"></span></a>
+                
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+             <!--start of first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of first level dropdown-->
+        <!--start of 2nd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 2nd first level dropdown-->
+        <!--start of 3rd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 3rd first level dropdown-->        
+        <!--start of 4th first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 4th first level dropdown-->    
+       </ul> <!--final Ul-->                
+    </div>
+<!--End of 2nd service nav tab-->
+<!--Start of 3rd Service nav tab-->
+ <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" href="#" style="color: floralwhite; background-color: #222">
+                Imaging <span class="caret"></span></a>
+                
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+             <!--start of first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of first level dropdown-->
+        <!--start of 2nd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 2nd first level dropdown-->
+        <!--start of 3rd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 3rd first level dropdown-->        
+        <!--start of 4th first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 4th first level dropdown-->    
+       </ul> <!--final Ul-->                
+    </div>
+<!--End of 3rd service nav tab-->
+<!--Start of 4th Service nav tab-->
+ <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" href="#" style="color: floralwhite; background-color: #222">
+                Web & Content <span class="caret"></span></a>
+                
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+             <!--start of first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of first level dropdown-->
+        <!--start of 2nd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 2nd first level dropdown-->
+        <!--start of 3rd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 3rd first level dropdown-->        
+        <!--start of 4th first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 4th first level dropdown-->    
+       </ul> <!--final Ul-->                
+    </div>
+<!--End of 4th service nav tab--> 
+<!--Start of 5th Service nav tab-->
+ <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" href="#" style="color: floralwhite; background-color: #222">
+                Small Form Factor <span class="caret"></span></a>
+                
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+             <!--start of first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of first level dropdown-->
+        <!--start of 2nd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 2nd first level dropdown-->
+        <!--start of 3rd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 3rd first level dropdown-->        
+        <!--start of 4th first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 4th first level dropdown-->    
+       </ul> <!--final Ul-->                
+    </div>
+<!--End of 5th service nav tab--> 
+<!--Start of 6th Service nav tab-->
+ <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" href="#" style="color: floralwhite; background-color: #222">
+                Voice & Data Collaboration <span class="caret"></span></a>
+                
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+             <!--start of first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of first level dropdown-->
+        <!--start of 2nd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 2nd first level dropdown-->
+        <!--start of 3rd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 3rd first level dropdown-->        
+        <!--start of 4th first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 4th first level dropdown-->    
+       </ul> <!--final Ul-->                
+    </div>
+<!--End of 6th service nav tab-->  
+<!--Start of 7th Service nav tab-->
+ <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" href="#" style="color: floralwhite; background-color: #222">
+        Driver PCP <span class="caret"></span></a>
+                
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+             <!--start of first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of first level dropdown-->
+        <!--start of 2nd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 2nd first level dropdown-->
+        <!--start of 3rd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 3rd first level dropdown-->        
+        <!--start of 4th first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 4th first level dropdown-->    
+       </ul> <!--final Ul-->                
+    </div>
+<!--End of 7th service nav tab-->
+<!--Start of 8th Service nav tab-->
+ <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" href="#" style="color: floralwhite; background-color: #222">
+                McAfee <span class="caret"></span></a>
+                
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+             <!--start of first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of first level dropdown-->
+        <!--start of 2nd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 2nd first level dropdown-->
+        <!--start of 3rd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 3rd first level dropdown-->        
+        <!--start of 4th first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 4th first level dropdown-->    
+       </ul> <!--final Ul-->                
+    </div>
+<!--End of 8th service nav tab-->
+<!--Start of 9th Service nav tab-->
+ <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" href="#" style="color: floralwhite; background-color: #222">
+        Cisco WebEx <span class="caret"></span></a>
+                
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+             <!--start of first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of first level dropdown-->
+        <!--start of 2nd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 2nd first level dropdown-->
+        <!--start of 3rd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 3rd first level dropdown-->        
+        <!--start of 4th first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 4th first level dropdown-->    
+       </ul> <!--final Ul-->                
+    </div>
+<!--End of 9th service nav tab--> 
+<!--Start of 10th Service nav tab-->
+ <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" href="#" style="color: floralwhite; background-color: #222">
+        ADSADM-DSBROKER <span class="caret"></span></a>
+                
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+             <!--start of first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of first level dropdown-->
+        <!--start of 2nd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 2nd first level dropdown-->
+        <!--start of 3rd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 3rd first level dropdown-->        
+        <!--start of 4th first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 4th first level dropdown-->    
+       </ul> <!--final Ul-->                
+    </div>
+<!--End of 10th service nav tab--> 
+<!--Start of 11th Service nav tab-->
+ <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" href="#" style="color: floralwhite; background-color: #222">
+                Driver Thunderbolt PCP<span class="caret"></span></a>
+                
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+             <!--start of first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of first level dropdown-->
+        <!--start of 2nd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 2nd first level dropdown-->
+        <!--start of 3rd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 3rd first level dropdown-->        
+        <!--start of 4th first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 4th first level dropdown-->    
+       </ul> <!--final Ul-->                
+    </div>
+<!--End of 11th service nav tab-->   
+<!--Start of 12th Service nav tab-->
+ <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" href="#" style="color: floralwhite; background-color: #222">
+        Circuit Employee Portal <span class="caret"></span></a>
+                
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+             <!--start of first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of first level dropdown-->
+        <!--start of 2nd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 2nd first level dropdown-->
+        <!--start of 3rd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 3rd first level dropdown-->        
+        <!--start of 4th first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 4th first level dropdown-->    
+       </ul> <!--final Ul-->                
+    </div>
+<!--End of 12th service nav tab--> 
+<!--Start of 13th Service nav tab-->
+ <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" href="#" style="color: floralwhite; background-color: #222">
+        Microsoft Outlook <span class="caret"></span></a>
+                
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+             <!--start of first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of first level dropdown-->
+        <!--start of 2nd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 2nd first level dropdown-->
+        <!--start of 3rd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 3rd first level dropdown-->        
+        <!--start of 4th first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 4th first level dropdown-->    
+       </ul> <!--final Ul-->                
+    </div>
+<!--End of 13th service nav tab--> 
+<!--Start of 14th Service nav tab-->
+ <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" href="#" style="color: floralwhite; background-color: #222">
+                MS Excel<span class="caret"></span></a>
+                
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+             <!--start of first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of first level dropdown-->
+        <!--start of 2nd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 2nd first level dropdown-->
+        <!--start of 3rd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 3rd first level dropdown-->        
+        <!--start of 4th first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 4th first level dropdown-->    
+       </ul> <!--final Ul-->                
+    </div>
+<!--End of 14th service nav tab--> 
+<!--Start of 15th Service nav tab-->
+ <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" href="#" style="color: floralwhite; background-color: #222">
+        Intel CACTI<span class="caret"></span></a>
+                
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+             <!--start of first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of first level dropdown-->
+        <!--start of 2nd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 2nd first level dropdown-->
+        <!--start of 3rd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 3rd first level dropdown-->        
+        <!--start of 4th first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 4th first level dropdown-->    
+       </ul> <!--final Ul-->                
+    </div>
+<!--End of 15th service nav tab--> 
+<!--Start of 16th Service nav tab-->
+ <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" href="#" style="color: floralwhite; background-color: #222">
+                Synplicity <span class="caret"></span></a>
+                
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+             <!--start of first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of first level dropdown-->
+        <!--start of 2nd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 2nd first level dropdown-->
+        <!--start of 3rd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 3rd first level dropdown-->        
+        <!--start of 4th first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 4th first level dropdown-->    
+       </ul> <!--final Ul-->                
+    </div>
+<!--End of 16th service nav tab--> 
+<!--Start of 17th Service nav tab-->
+ <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" href="#" style="color: floralwhite; background-color: #222">
+        IOS<span class="caret"></span></a>
+                
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+             <!--start of first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of first level dropdown-->
+        <!--start of 2nd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 2nd first level dropdown-->
+        <!--start of 3rd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 3rd first level dropdown-->        
+        <!--start of 4th first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 4th first level dropdown-->    
+       </ul> <!--final Ul-->                
+    </div>
+<!--End of 17th service nav tab--> 
+<!--Start of 18th Service nav tab-->
+ <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" href="#" style="color: floralwhite; background-color: #222">
+                Access Governance System <span class="caret"></span></a>
+                
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+             <!--start of first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of first level dropdown-->
+        <!--start of 2nd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 2nd first level dropdown-->
+        <!--start of 3rd first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 3rd first level dropdown-->        
+        <!--start of 4th first level dropdown-->
+              <li class="dropdown-submenu"><a  tabindex="-1" href="#">1st level dropdown</a>
+                <ul class="dropdown-menu">
+                   <!--start of 2nd level dropdown--> 
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                    <!--start of 3rd level dropdown-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul> <!--End of 1st 3rd level dropdown-->
+                   <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                   </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul>                    
+                  </li>
+                  <li class="dropdown-submenu"><a href="#">2nd level dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">3rd level</a></li>
+                    	    <li><a href="#">3rd level</a></li>
+                        </ul><!--End of 2nd level dropdown-->                    
+                  </li>                                    
+              </ul>            
+            </li><!--End of 4th first level dropdown-->    
+       </ul> <!--final Ul-->                
+    </div>
+<!--End of 18th service nav tab--> 
+                   
+ 
+</div><!--first div ending of nav tabl-->
+</nav>
+ 
+<!-- Nxt and Prev buttons-->
+<button id="previous" style="position:fixed;left:3px; margin-top:190px; z-index: 1; background-color: lightcyan;color: black"><b>Prv &#8810;</b></button>
+<button id="next" style="position:fixed;right: 3px; margin-top:190px; z-index: 1;background-color: lightcyan;color: black"><b>Nxt &#8811;</b></button> 
+
+<!-- Container for display images and modal div-->
+<div class="container">  
+
+<!-- div for image gallery. This is where created images are stored-->
+<div class="row"> </div>
+  
+  <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog" >
+    <!-- Modal content-->
+    <div class="modal-content" style="width: 700px; height: 600px"> 
+      <div class="modal-header" style="padding-bottom: 0px">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <textarea name="" id="modalid" cols="86" rows="2" style="background-color: MediumTurquoise; resize: none; border-radius: 4px">Hi</textarea>
+      </div>
+      <div class="modal-body">
+        <img src="" alt="" id="modal-img" width="100%" height="100%">
+        <img id="mouse" src="image/mousearrow1.png" alt="" style="position: absolute; left: 0px; bottom: 0px">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</div> <!-- end of container div-->
+
+
+<!-- footer slide button..-->
+<button id="footerslide" style="position: fixed; bottom: 0px; z-index: 1;background-color: #2f2f2f; color: bisque; margin-bottom: 12px">Footer<br>"Click"</button>
+   
+
+    
+<!-- footer text area..-->
+        
+<footer class="container-fluid bg-4 text-center">
+ <div class="container">
+ <textarea class="form-control" id="footertxtar" cols="160" rows="6" style="resize:none; background-color: lightcyan; color: black"></textarea>
+ </div>
+
+ <form id="feedback">
+    <label for="">Are the troubleshooting steps helpful?</label>
+    <div class="form-check form-check-inline">
+       <input class="form-check-input" name="kbinput" type="radio" id="inlineCheckbox1" value="" >
+       <label class="form-check-label" for="inlineCheckbox1" >Yes</label>
+   </div>
+       <div class="form-check form-check-inline">
+       <input class="form-check-input" name="kbinput" type="radio" id="inlineCheckbox2" value="">
+       <label class="form-check-label" for="inlineCheckbox2" >No</label>
+       </div>
+   </div>
+   </form>
+ </footer>
+
+ 
+<!-- end of footer -->  
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="image-variables.js"></script>
+    <script src="myscript.js"></script>
+    <script src="function.js"></script>
+    <script src="clickimgslider.js"></script>
+    <script src="slideshow.js"></script>
+    
+  </body>
+</html>
